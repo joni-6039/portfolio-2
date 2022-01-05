@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+a{  
+    text-decoration: none;
+    color: white;
+    background: #FF5959;
+    padding: 12px 20px;
+    border-radius: 6px;
+}
+.protfolio{
+    display: flex;
+}
+.area{
+    width: 50%;
+}
+.area p{
+    width: 80%;
+    padding: 22px 0px 22px 0px; 
+}
+.area-left{
+    padding: 110px;
+}
+.area-right{
+    padding-bottom: 100px;
+    
+}
+.area h1{
+    font-family: Yeseva One;
+    font-size:55px ;
+    font-weight: 400;
+    margin: 0;
+    line-height: 70px;
+}
+.area img{
+    width: 80%;
+}
+.color{
+    color:#FFAD5A;
+}
