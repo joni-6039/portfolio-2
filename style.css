@@ -1,5 +1,6 @@
 body{
-    margin: 0;
+    width: 100%;
+    margin:  auto;
     font-family: 'Poppins', sans-serif;
 }
 a{  
@@ -9,7 +10,7 @@ a{
     padding: 12px 20px;
     border-radius: 6px;
 }
-.protfolio{
+.protfolio {
     display: flex;
 }
 .area{
@@ -22,16 +23,14 @@ a{
 .area-left{
     padding: 110px;
 }
-.area-right{
-    padding-bottom: 100px;
-    
-}
+
 .area h1{
     font-family: Yeseva One;
     font-size:55px ;
     font-weight: 400;
     margin: 0;
     line-height: 70px;
+    
 }
 .area img{
     width: 80%;
@@ -39,3 +38,40 @@ a{
 .color{
     color:#FFAD5A;
 }
+.mission{
+    margin: auto;
+}
+.headline{
+    text-align: center;
+    font-size:30px ;
+    font-weight:bold;
+
+}
+.infocard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+   
+}
+.infocard img {
+    width: 50%;
+
+}
+.card{
+    padding: 30px;
+    border-radius: 20px;
+    width: 27%;
+
+}
+#card1{
+    background-color: #EEF6F7;
+}
+#card2{
+    background-color: #FFEFEF;
+}
+#card3{
+    background-color: #FFF4D6;
+}
+
