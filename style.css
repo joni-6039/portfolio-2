@@ -1,5 +1,5 @@
 body{
-    width: 100%;
+   
     margin:  auto;
     font-family: 'Poppins', sans-serif;
 }
@@ -9,6 +9,10 @@ a{
     background: #FF5959;
     padding: 12px 20px;
     border-radius: 6px;
+}
+.borderleft{
+    border-left: 5px solid tomato;
+    
 }
 .protfolio {
     display: flex;
@@ -40,6 +44,7 @@ a{
 }
 .mission{
     margin: auto;
+    margin-bottom: 60px;
 }
 .headline{
     text-align: center;
@@ -75,3 +80,54 @@ a{
     background-color: #FFF4D6;
 }
 
+.Develop{
+    margin: auto;
+    display: flex;
+    width: 95%;
+    
+    margin-bottom: 60px;
+}
+.dev{
+    padding: 10px;
+    border-radius: 20px;
+    width: 50%;
+}
+.dev img{
+    width:80%;
+    position: ;
+}
+.logo {
+    margin: auto;
+    display: flex;
+    margin-bottom: 60px;
+    
+}
+.logobackground {
+    margin: auto;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+.logobackground img{
+    width:60%;
+    padding:10px;
+    
+}
+.client h1 {
+    text-align: center;
+    font-size: 50px;
+    
+
+}
+footer {
+    text-align: center;
+    background-color: black;
+    height: 200px;
+    color: white;
+}
+footer h1{
+    color: white;
+    padding-top: 23px;
+}
